@@ -10,7 +10,7 @@ import skimage.color as skc
 N_SAMPLES = 2663
 BATCH_SIZE = 200  # gera em blocos para performance
 
-# limites LAB (os que você encontrou)
+# limites LAB 
 L_MIN, L_MAX = 0.0, 100.0
 A_MIN, A_MAX = -86.1830443, 98.2330704
 B_MIN, B_MAX = -107.8572997, 94.4781341
