@@ -9,7 +9,11 @@ from skimage.color import deltaE_ciede2000
 # CONFIGURAÇÃO
 # ============================================================
 
-# As fontes (source) são comercial, theory, faiss, faiss_m2, faiss_m3, faiss_m4, faiss_m5 e faiss_mg
+'''
+SOURCE_1/SOURCE_2: Se referem a origem das entradas: comercial, theory ou modelo (faiss, faiss_m2, ... , faiss_m6)
+CSV_MODEL_1/CVS_MODEL_2: Arquivos com as entradas.
+CSV_OUTPUT: Arquivo de saída, posteriormente usado em individual_analysis e combined_model_analysis (Modelo x Teoria ou Modelo x Comercial)
+'''
 
 SOURCE_1 = "comercial"
 SOURCE_2 = "theory"
